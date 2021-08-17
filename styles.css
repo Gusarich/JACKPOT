@@ -2,12 +2,23 @@ body {
     background-color: #19181B;
     color: #EAE6FC;
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+span {
+    white-space:nowrap;
 }
 
 .main-wrap {
     position: absolute;
     left: 50%;
-    top: 300px;
+    top: 250px;
 }
 
 .main {
@@ -38,11 +49,11 @@ body {
 .bet-button {
     background-color: #979308;
     border: 2px solid black;
-    padding: 10px;
+    padding: 15px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
     display: inline-block;
     margin-top: 40px;
