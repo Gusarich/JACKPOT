@@ -1,0 +1,53 @@
+body {
+    background-color: #19181B;
+    color: #EAE6FC;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-wrap {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+}
+
+.main {
+    position: relative;
+    left: -50%;
+    text-align: center;
+}
+
+.buy-button {
+    position: relative;
+    left: -50%;
+    background-color: #818055;
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.buy-button-absolute {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+
+.bet-button {
+    background-color: #979308;
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.info {
+    font-size: 30px;
+}
