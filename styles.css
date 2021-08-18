@@ -36,7 +36,6 @@ span {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    font-size: 18px;
     cursor: pointer;
 }
 
@@ -46,6 +45,14 @@ span {
     top: 20px;
 }
 
+.f18 {
+    font-size: 0.48cm;
+}
+
+.f22 {
+    font-size: 0.58cm;
+}
+
 .bet-button {
     background-color: #979308;
     border: 2px solid black;
@@ -53,12 +60,16 @@ span {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    font-size: 22px;
     cursor: pointer;
     display: inline-block;
     margin-top: 40px;
 }
 
 .info {
-    font-size: 30px;
+    font-size: 0.8cm;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
 }
