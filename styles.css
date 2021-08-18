@@ -16,14 +16,16 @@ span {
 }
 
 .main-wrap {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
     position: absolute;
     left: 50%;
-    top: 250px;
+    margin-left: -250px;
+    margin-top: 200px;
 }
 
 .main {
-    position: relative;
-    left: -50%;
     text-align: center;
 }
 
@@ -46,11 +48,11 @@ span {
 }
 
 .f18 {
-    font-size: 0.48cm;
+    font-size: 18px;
 }
 
 .f22 {
-    font-size: 0.58cm;
+    font-size: 22px;
 }
 
 .bet-button {
@@ -66,10 +68,20 @@ span {
 }
 
 .info {
-    font-size: 0.8cm;
+    font-size: 30px;
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
+    .f18 { font-size: 16px; }
+    .f22 { font-size: 20px; }
+    .info { font-size: 27px; }
+    .main-wrap { width: 354px; margin-left: -177px; }
+}
 
+@media only screen and (max-width: 600px) {
+    .f18 { font-size: 14px; }
+    .f22 { font-size: 18px; }
+    .info { font-size: 24px; }
+    .main-wrap { width: 316px; margin-left: -158px; }
 }
